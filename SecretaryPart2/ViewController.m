@@ -16,6 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    secretaryButton.layer.cornerRadius = 5;
+    secretaryButton.layer.borderWidth = 1;
+    secretaryButton.layer.borderColor = [[UIColor blackColor] CGColor];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
